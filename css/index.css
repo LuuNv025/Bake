@@ -44,6 +44,7 @@ h2{
 header {
     background-color: #4e2a84;
     padding: 15px 0;
+    width: 100%; 
 }
 .header__content {
     width: 70%;
@@ -256,6 +257,7 @@ header {
 }
 .gallery__item{
     position: relative;
+    overflow: hidden;
 }
 .gallery__overlay{
     position: absolute;
@@ -273,11 +275,17 @@ header {
     bottom: 38px;
     right: 28px;
     font-size: 0.75rem;
+    transform: translateY(20px);
+    transition: all 1s;
+    opacity: 0;
 }
 
 .gallery__overlay h3{
     font-size: 1.875rem;
     font-weight: 700;
+    transform: translateY(20px);
+    transition: all 1s;
+    opacity: 0;
 }
 .gallery__overlay h3 span{
     font-weight: 300;
@@ -290,6 +298,14 @@ header {
     background-color: #fff;
     margin-top: 10px;
 }
+/* XỬ LÍ HIỆU ỨNG PHẦN GALLEY*/
+.gallery__item:hover .gallery__overlay h3,
+.gallery__item:hover .gallery__overlay p
+{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 /* Team */
 .team{
     background-color: #4e2a84;
@@ -522,4 +538,38 @@ footer{
 }
 .footer__copyright span{
     color: #ff0e83;
+}
+/* FEEDBACK */
+.feedback{
+    background-image: url(../img/cc1.jpg);
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+.feedback h2{
+    color: white;
+
+}
+.feedback__content{
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid #ff0e83;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 32px;
+}
+.item i{
+    font-size: 1.3rem;
+    color: aqua;
+    padding: 0 18px;
+}
+.item p{
+    line-height: 30px;
+    letter-spacing: 1.3px;
+}
+.item p:nth-of-type(2){
+    font-weight: 600;
+    color: #fff;
+}
+.owl-dot span{
+    background-color: #000;
 }

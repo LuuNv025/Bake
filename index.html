@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css " />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -16,6 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <!-- LIGHT BOX -->
+    <link rel="stylesheet" href="./css/lightbox.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/index.css " />
     <title>Bake</title>
   </head>
   <body>
@@ -170,46 +176,58 @@
       <h2>OUR GALLERY</h2>
       <div class="gallery__content">
         <figure class="gallery__item galleyry__g1">
-          <img src="./img/g1.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g1.jpg" data-lightbox="roadtrip">
+            <img src="./img/g1.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g2.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g2.jpg" data-lightbox="roadtrip">
+            <img src="./img/g2.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g3.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g3.jpg" data-lightbox="roadtrip">
+            <img src="./img/g3.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g4.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g4.jpg" data-lightbox="roadtrip">
+            <img src="./img/g4.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g5.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g5.jpg" data-lightbox="roadtrip">
+            <img src="./img/g5.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item galleyry__g6">
-          <img src="./img/g6.jpg" alt="gallery 1" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span>GALLERY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g6.jpg" data-lightbox="roadtrip">
+            <img src="./img/g6.jpg" alt="gallery 1" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span>GALLERY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
       </div>
     </section>
@@ -322,7 +340,40 @@
       </div>
     </section>
     <!-- FEEDBACK -->
-    <section class="feedback"></section>
+    <section class="feedback">
+      <h2>TESTIMONIALS</h2>
+      <div class="feedback__content">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Recusandae quam ullam repellendus
+              beatae odit exercitationem corporis accusantium. Dolore, cumque
+              similique! <i class="fa fa-quote-right"></i>
+            </p>
+            <p>WILLSON</p>
+          </div>
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Recusandae quam ullam repellendus
+              beatae odit exercitationem corporis accusantium. Dolore, cumque
+              similique! <i class="fa fa-quote-right"></i>
+            </p>
+            <p>MARK</p>
+          </div>
+          <div class="item">
+            <p>
+              <i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Recusandae quam ullam repellendus
+              beatae odit exercitationem corporis accusantium. Dolore, cumque
+              similique! <i class="fa fa-quote-right"></i>
+            </p>
+            <p>ALLY</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- CONTACT -->
     <section class="contact">
       <h2>CONTACT</h2>
@@ -376,8 +427,14 @@
       <div class="footer__main">
         <div class="footer__item">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam quasi fugiat sapiente perspiciatis veniam?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam quasi fugiat sapiente perspiciatis veniam?</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
+            quasi fugiat sapiente perspiciatis veniam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
+            quasi fugiat sapiente perspiciatis veniam?
+          </p>
           <div class="footer__social">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
@@ -416,23 +473,26 @@
           </div>
         </div>
         <div class="footer__item">
-         <h3>Twitter us</h3>
-         <p>Lorem ipsum dolor sit amet consectetur.</p>
-         <p>Lorem ipsum dolor sit amet consectetur.</p>
-         <p>Lorem ipsum dolor sit amet consectetur.</p>
-         <p>Lorem ipsum dolor sit amet consectetur.</p> 
+          <h3>Twitter us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div class="footer__item">
           <h3>Subcribe Us</h3>
           <form class="footer__sub">
-            <input type="email" name="" id="" placeholder="Enter Email">
+            <input type="email" name="" id="" placeholder="Enter Email" />
             <button>Submit</button>
           </form>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
       <div class="footer__copyright">
-        <p>2022 sit amet consectetur adipisicing elit &#169; Design by <span>Luu Nguyen Van</span></p>
+        <p>
+          2022 sit amet consectetur adipisicing elit &#169; Design by
+          <span>Luu Nguyen Van</span>
+        </p>
       </div>
     </footer>
     <script
@@ -450,6 +510,32 @@
     <script src="./js/jquery.countup.min.js"></script>
     <script>
       $(".counter").countUp();
+    </script>
+    <!-- import owl.carousel chạy hiệu ứng slide -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        // margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <!-- LIGHT BOX JS -->
+    <script src="./js/lightbox.min.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 500,
+        wrapAround: true,
+        fadeDuration: 1000
+      });
     </script>
   </body>
 </html>
